@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --brand-primary: #2563EB;
+    --brand-accent: #2563EB;
+    --brand-neutral: #F8FAFC;
+}
+
+body {
+    color: var(--brand-primary);
+    background: white;
+    font-family: ui-sans-serif, system-ui, sans-serif;
+}
